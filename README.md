@@ -28,6 +28,12 @@ To use this package, add the following to your `.eslintrc.json` file:
 }
 ```
 
+## Warnings and Errors
+
+A rule is set to be a warning when it is something that is okay during development (e.g. using a `console.log`, or not having a JSDoc definition yet) but should not make it to production code.
+
+A rule is set to an error when it is something that should not occur in development or production (e.g. missing semi-colons, using loose equality).
+
 ## Feedback and Bugs
 
 If you have feedback or a bug report, please feel free to open a GitHub issue!
