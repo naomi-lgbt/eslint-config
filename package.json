@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@nhcarrigan/eslint-config",
   "version": "0.0.0",
   "description": "Global config for ESLint",
   "main": "index.js",
