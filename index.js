@@ -21,17 +21,17 @@ module.exports = {
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "double", { "allowTemplateLiterals": true }],
         "semi": ["error", "always"],
-        "prefer-const": "error",
+        "prefer-const": "warn",
         "eqeqeq": ["error", "always"],
         "curly": ["error"],
-        "require-atomic-updates": ["error"],
+        "require-atomic-updates": ["warn"],
         "no-var": ["error"],
         "camelcase": ["error"],
         "init-declarations": ["error", "always"],
-        "require-await": ["error"],
+        "require-await": ["warn"],
         "no-param-reassign": ["error"],
         "jsdoc/require-jsdoc": [
-            "error",
+            "warn",
             {
                 "require": {
                     "ArrowFunctionExpression": true,
@@ -44,12 +44,12 @@ module.exports = {
                 "publicOnly": true
             }
         ],
-        "jsdoc/require-description-complete-sentence": "error",
-        "import/first": "error",
-        "import/exports-last": "error",
-        "import/newline-after-import": "error",
+        "jsdoc/require-description-complete-sentence": "warn",
+        "import/first": "warn",
+        "import/exports-last": "warn",
+        "import/newline-after-import": "warn",
         "import/order": [
-            "error",
+            "warn",
             {
                 "groups": [
                     "builtin",
@@ -69,6 +69,6 @@ module.exports = {
                 }
             }
         ],
-        "no-only-tests/no-only-tests": "error"
+        "no-only-tests/no-only-tests": "warn"
     }
 }
