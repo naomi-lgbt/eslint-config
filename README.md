@@ -1,12 +1,32 @@
-# Project Name
+# Naomi's ESLint Config
 
-Project Description
+This package holds my ESLint configuration for easy installation and syncing changes across projects.
 
 ## Live Version
 
-This page is not yet deployed.
+This package is currently published. [View the `npm` page](https://www.npmjs.com/package/@nhcarrigan/eslint-config).
 
-<!--This page is currently deployed. [View the live website.]()-->
+## Installation
+
+To install this package, run the following command:
+
+```bash
+npm i @nhcarrigan/eslint-config eslint
+```
+
+## Compatibility
+
+This package is compatible with ESLint 8.
+
+## Usage
+
+To use this package, add the following to your `.eslintrc.json` file:
+
+```json
+{
+  "extends": "@nhcarrigan/eslint-config"
+}
+```
 
 ## Feedback and Bugs
 
