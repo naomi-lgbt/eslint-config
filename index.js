@@ -69,6 +69,7 @@ module.exports = {
                 }
             }
         ],
-        "no-only-tests/no-only-tests": "warn"
+        "no-only-tests/no-only-tests": "warn",
+        "no-console": "warn"
     }
 }
