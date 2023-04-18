@@ -4,7 +4,7 @@
   "description": "Global config for ESLint",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'no tests yet'"
+    "test": "eslint test.js --max-warnings 0 -c index.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
   },
   "peerDependencies": {
     "eslint": ">=8"
+  },
+  "devDependencies": {
+    "@nhcarrigan/prettier-config": "1.0.0"
   }
 }
