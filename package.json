@@ -32,6 +32,6 @@
     "eslint": ">=8"
   },
   "devDependencies": {
-    "@nhcarrigan/prettier-config": "1.0.0"
+    "@nhcarrigan/prettier-config": "1.0.1"
   }
 }
