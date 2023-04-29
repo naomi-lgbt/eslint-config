@@ -69,6 +69,10 @@ module.exports = {
                 }
             }
         ],
+        "import/no-unused-modules": ["warn", {
+            "unusedExports": true,
+            "missingExports": true,
+        }],
         "no-only-tests/no-only-tests": "warn",
         "no-console": "warn"
     }
