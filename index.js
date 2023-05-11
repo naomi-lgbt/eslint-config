@@ -73,7 +73,7 @@ module.exports = {
             "warn",
             {
                 "block": ["test", "suite", "assert"],
-                "focus": ["only"],
+                "focus": ["only", "skip"],
             }
         ],
         "no-console": "warn"
