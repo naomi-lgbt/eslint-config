@@ -27,7 +27,7 @@ module.exports = {
     "require-atomic-updates": ["warn"],
     "no-var": ["error"],
     camelcase: ["error"],
-    "comma-dangle": ["error", "always"],
+    "comma-dangle": ["error", "never"],
     "init-declarations": ["error", "always"],
     "require-await": ["warn"],
     "no-param-reassign": ["error"],
