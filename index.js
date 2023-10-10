@@ -10,13 +10,14 @@ module.exports = {
     "plugin:jsdoc/recommended",
     "plugin:import/recommended",
     "plugin:import/typescript",
+    "plugin:deprecation/recommended",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 11,
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "jsdoc", "import", "no-only-tests"],
+  plugins: ["@typescript-eslint", "jsdoc", "import", "no-only-tests", "eslint-plugin-deprecation"],
   rules: {
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "double", { allowTemplateLiterals: true }],
